@@ -4,5 +4,9 @@ print(inp)
 d={}.fromkeys(inp,0)
 c=1
 print("unique Values",d)
-print("splitted string:",inp)
+for p in inp:
+    if p in d:
+        d[p]=d[p]+1
+for q,r in d.items():
+    print("{}-{}".format(q,r),end="")
 
