@@ -5,6 +5,8 @@ while True:
     'stmt'
     'stmt'
     break
+for p in range(1,6):
+    print("hello")
 
 
 
