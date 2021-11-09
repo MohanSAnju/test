@@ -7,6 +7,10 @@ while True:
     break
 for p in range(1,6):
     print("hello")
+    if p==3:
+        print("RRR")
+        continue
+print("can you pleased guess what happend with continue")
 
 
 
